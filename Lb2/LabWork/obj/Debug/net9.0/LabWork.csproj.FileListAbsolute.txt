@@ -1,0 +1,14 @@
+D:\Projects\AutomationTools\Lb2\LabWork\bin\Debug\net9.0\LabWork.exe
+D:\Projects\AutomationTools\Lb2\LabWork\bin\Debug\net9.0\LabWork.deps.json
+D:\Projects\AutomationTools\Lb2\LabWork\bin\Debug\net9.0\LabWork.runtimeconfig.json
+D:\Projects\AutomationTools\Lb2\LabWork\bin\Debug\net9.0\LabWork.dll
+D:\Projects\AutomationTools\Lb2\LabWork\bin\Debug\net9.0\LabWork.pdb
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.AssemblyInfoInputs.cache
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.AssemblyInfo.cs
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.csproj.CoreCompileInputs.cache
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.dll
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\refint\LabWork.dll
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.pdb
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\LabWork.genruntimeconfig.cache
+D:\Projects\AutomationTools\Lb2\LabWork\obj\Debug\net9.0\ref\LabWork.dll

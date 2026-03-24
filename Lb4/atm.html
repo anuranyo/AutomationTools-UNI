@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Банкомат (ATM Mock)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .block { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 5px; width: 300px; }
+        label { display: block; margin-bottom: 5px; }
+        input { margin-bottom: 10px; width: 100%; box-sizing: border-box; }
+        button { width: 100%; padding: 8px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Система Банкомата</h1>
+    
+    <div class="block">
+        <label for="balanceInput">Початковий баланс:</label>
+        <input type="number" id="balanceInput" value="0">
+        <button id="setBalanceBtn">Встановити баланс</button>
+    </div>
+    
+    <div class="block">
+        <label for="amountInput">Сума для зняття:</label>
+        <input type="number" id="amountInput">
+        <button id="withdrawBtn">Зняти готівку</button>
+    </div>
+    
+    <div class="block">
+        <h3>Результат операції</h3>
+        <p>Видана сума: <span id="dispensedAmount">0</span></p>
+        <p>Залишок на рахунку: <span id="currentBalance">0</span></p>
+        <p>Повідомлення: <span id="message"></span></p>
+    </div>
+
+    <script>
+        let balance = 0;
+
+        document.getElementById('setBalanceBtn').addEventListener('click', () => {
+            balance = parseInt(document.getElementById('balanceInput').value, 10);
+            document.getElementById('currentBalance').innerText = balance;
+            document.getElementById('dispensedAmount').innerText = '0';
+            document.getElementById('message').innerText = 'Баланс встановлено';
+        });
+
+        document.getElementById('withdrawBtn').addEventListener('click', () => {
+            let amount = parseInt(document.getElementById('amountInput').value, 10);
+            if (isNaN(amount) || amount <= 0) {
+                document.getElementById('message').innerText = 'Некоректна сума';
+                document.getElementById('dispensedAmount').innerText = '0';
+                return;
+            }
+
+            if (amount <= balance) {
+                balance -= amount;
+                document.getElementById('dispensedAmount').innerText = amount;
+                document.getElementById('currentBalance').innerText = balance;
+                document.getElementById('message').innerText = 'Операція успішна';
+            } else {
+                document.getElementById('dispensedAmount').innerText = '0';
+                document.getElementById('message').innerText = 'Недостатньо коштів';
+            }
+        });
+    </script>
+</body>
+</html>

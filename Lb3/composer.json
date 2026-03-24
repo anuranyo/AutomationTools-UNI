@@ -1,0 +1,15 @@
+{
+    "name": "student/lb3-testing",
+    "description": "Lab 3 PHP Testing with PHPUnit and Codeception",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0",
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "^3.0",
+        "codeception/module-asserts": "^3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "CalculatorClass.php"
+        ]
+    }
+}

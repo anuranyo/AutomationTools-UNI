@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\AutomationTools\\Lb2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02D156A7-4E08-413E-A885-7C3511E512E4}|LabWork\\LabWork.csproj|d:\\projects\\automationtools\\lb2\\labwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D156A7-4E08-413E-A885-7C3511E512E4}|LabWork\\LabWork.csproj|solutionrelative:labwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D156A7-4E08-413E-A885-7C3511E512E4}|LabWork\\LabWork.csproj|d:\\projects\\automationtools\\lb2\\labwork\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D156A7-4E08-413E-A885-7C3511E512E4}|LabWork\\LabWork.csproj|solutionrelative:labwork\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6748693-531B-4E00-B5BC-861A3C851291}|LabWork.Tests\\LabWork.Tests.csproj|d:\\projects\\automationtools\\lb2\\labwork.tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6748693-531B-4E00-B5BC-861A3C851291}|LabWork.Tests\\LabWork.Tests.csproj|solutionrelative:labwork.tests\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\Projects\\AutomationTools\\Lb2\\LabWork\\Calculator.cs",
+              "RelativeDocumentMoniker": "LabWork\\Calculator.cs",
+              "ToolTip": "D:\\Projects\\AutomationTools\\Lb2\\LabWork\\Calculator.cs",
+              "RelativeToolTip": "LabWork\\Calculator.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:28:54.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\AutomationTools\\Lb2\\LabWork\\Program.cs",
+              "RelativeDocumentMoniker": "LabWork\\Program.cs",
+              "ToolTip": "D:\\Projects\\AutomationTools\\Lb2\\LabWork\\Program.cs",
+              "RelativeToolTip": "LabWork\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:28:40.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "D:\\Projects\\AutomationTools\\Lb2\\LabWork.Tests\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "LabWork.Tests\\CalculatorTests.cs",
+              "ToolTip": "D:\\Projects\\AutomationTools\\Lb2\\LabWork.Tests\\CalculatorTests.cs",
+              "RelativeToolTip": "LabWork.Tests\\CalculatorTests.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T14:13:43.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
